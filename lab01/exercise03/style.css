@@ -27,6 +27,9 @@ section h2, section p, section button{
     margin-left: 20px;
     margin-right: 20px;
 }
+h2{
+    font-family: 'Moon Dance', cursive;
+}
 
 /* Tablet Media Query */
 @media only screen and (max-width: 1000px) {
