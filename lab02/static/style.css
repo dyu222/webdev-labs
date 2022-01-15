@@ -26,10 +26,11 @@ nav ul {
 main {
     margin: 3vh;
 }
-
+div{
+    width: 25%;
+}
 .card{
     border: solid 1px gray;
-    width: 25%;
 }
 img{
     /* width: 50vh; */
@@ -41,8 +42,16 @@ img{
 
 @media only screen and (max-width: 1000px) {
     /* Media queries go here */
+    div{
+        width: 50%;
+    }
+
 }
 
 @media only screen and (max-width: 600px) {
     /* Media queries go here */
+    div{
+        width: 100%;
+    }
+
 }
